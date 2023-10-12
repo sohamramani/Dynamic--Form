@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form</title>
+
+    <!-- css and bootstrap -->
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-success">Dynamic Form:- </h1>
+        <div class="row mt-4 justify-content-between">
+            <!-- daynamic field -->
+            <div class="col-7">
+                <!-- Textbox -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-dark" id="textbox">Textbox</button>
+                    </div>
+                    <div class="col-8" id="textbox-input">
+                        
+                    </div>
+                </div>
+                
+                <!-- Number -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-info" id="number">Number</button>
+                    </div>
+                    <div class="col-8" id="number-input">
+
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-danger" id="textarea">Textarea</button>
+                    </div>
+                    <div class="col-8" id="textarea-input">
+                        
+                    </div>
+                </div>
+
+                <!-- Select -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-warning" id="select">Select</button>
+                    </div>
+                    <div class="col-8" id="select-input">
+                        
+                    </div>
+                </div>
+
+                <!-- File -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-danger" id="file">File</button>
+                    </div>
+                    <div class="col-8" id="file-input">
+                    </div>
+                </div>
+
+                <!-- Radio -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-info" id="radio">Radio</button>
+                    </div>
+                    <div class="col-8" id="radio-input">
+                        
+                    </div>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="row justify-content-between mb-5">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-dark" id="checkbox">Checkbox</button>
+                    </div>
+                    <div class="col-8" id="checkbox-input">
+                    
+                    </div>
+                </div> 
+                <!-- save button -->
+                <div class="text-center">
+                    <button type="button" class="btn btn-success" id="save">print JSON</button>
+                </div>
+            </div>
+            <!-- json format text -->
+            <pre class="col-4 " id="format">
+            </pre>
+        </div>
+    </div>
+    <script src="../javascript/jquery-3.7.0.min.js"></script><!--jquery script -->
+    <script src="../javascript/script.js"></script>  <!-- script -->  
+</body>
+</html>
